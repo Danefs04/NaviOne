@@ -1,0 +1,58 @@
+html {
+  scroll-behavior: smooth; /* Funcionalidad de scroll por links en la misma app */
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar-brand {
+  margin-left: 20rem;
+  font-size: 1.8rem;
+  color: #000;
+  font-weight: bold;
+}
+
+#navbarNavAltMarkup {
+  margin-right: 20rem;
+  font-size: 1.2rem;
+}
+
+#home {
+  padding: 1rem;
+}
+
+#header {
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  background-image: url(../../img/hero.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.header-content-right {
+margin-left: 2rem;
+}
+
+.btn {
+  color: white;
+}
+
+#testimonial {
+  background: #f1f1f1;
+  padding: 1rem 0 1rem 0;
+  text-align:center;
+}
+
+#contact {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: #f1f1f1;
+  text-align:center;
+}

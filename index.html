@@ -1,169 +1,180 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- HEAD -->
-    <meta charset="UTF-8">
-    <title>NaviOne</title>
-    <!-- GOOGLE FONT -->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
-    <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="src/css/main.css">
-</head>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaviOne Colombia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  </head>
+  <body>
 
-<body>
-<!-- NAVIGATION -->
-<div class="fixed-navbar main-container">
-    <img class="main-logo" src="img/NaviOne_Logo.png" alt="">
-    <a class="nav-item" href="#home">Inicio</a>
-    <a class="nav-item" href="#portafolio">Portafolio</a>
-    <a class="nav-item" href="#contact">Contacto</a>
-</div>
-<!-- /NAVIGATION -->
-
-<!-- HEADER -->
-<section id="home">
-    <div class="">
-        <div class="">
-            <div class="">
-                <div class=""></div>  
-            </div>
-            <div class="">
-                <div class="">
-                <h1 class="">Vamos donde necesites</h1>
-                <p class="">Nuestros pilotos de drones están preparados para capturar datos de calidad en cualquier territorio siguiendo la norma.</p>
-                <a href="#contact" class="">Solicita asesoria</a>
-                </div>
-            </div>
+    <header>
+      <a href="#" class="brand">
+        <img class="main-logo" src="img/NaviOne_Logo.png" alt="">
+      </a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <div class="navigation-items">
+          <a href="#home">Inicio</a>
+          <a href="#portafolio">Portafolio</a>
+          <a href="#">Contacto</a>
         </div>
-    </div>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+
+      <video class="video-slide active" src="video/1.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="video/2.mp4" autoplay muted loop></video>
+
+      <div class="content active">
+        <h1>Explora<br><span>sin límites</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#portafolio">Leer más</a>
+      </div>
+      <div class="content">
+        <h1>Apoya tus proyectos<br><span>con nosotros</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#portafolio">Leer más</a>
+      </div>
+
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      
+      <div class="slider-navigation">
+        <div class="nav-btn active"></div>
+        <div class="nav-btn"></div>
+      </div>
     </section>
-<!-- /HEADER -->
 
-<!-- PORTAFOLIO -->
-<div id="portafolio"></div>
-<div class="container cards">
 
-    <div class="card">
-        <img src="img/Topo_Logo.png">
-        <div class="card-holder">
-            <h2>Topografía con drones</h2>
-            <p>Contamos pilotos certificados y drones profesionales capaces de levantar topografía.</p>
+    <!-- PORTAFOLIO -->
+    <section id="portafolio">
+      <div class="cards">
+        <div class="card">
+            <img src="img/Topo_Logo.png">
+            <div class="card-info">
+                <h2>Topografía con drones</h2>
+                <p>Contamos pilotos certificados y drones profesionales capaces de levantar topografía.</p>
+            </div>
         </div>
-    </div>
-
-    <div class="card">
-        <img src="img/Inspection_Logo.png">
-        <div class="card-holder">
-            <h2>Inspección aérea</h2>
-            <p>Inspeccionamos techos, fachadas y demás estructuras para que puedas estar al día del estado de tu propiedad.</p>
+        <div class="card">
+            <img src="img/Inspection_Logo.png">
+            <div class="card-info">
+                <h2>Inspección aérea</h2>
+                <p>Inspeccionamos techos, fachadas y demás estructuras para regsitrar el estado de tu propiedad.</p>
+            </div>
         </div>
-    </div>
-
-    <div class="card">
-        <img src="img/GIS_Logo.png">
-        <div class="card-holder">
-            <h2>Nearshore GIS</h2>
-            <p>Ofrecemos soluciones para requerimientos y analisis de datos en Sistemas de Informacion Geografica.</p>    
+        <div class="card">
+            <img src="img/GIS_Logo.png">
+            <div class="card-info">
+                <h2>Nearshore GIS</h2>
+                <p>Soluciones para preocesamiento de datos en Sistemas de Información Geográfica.</p>    
+            </div>
         </div>
-    </div>
-
-    <div class="card">    
-        <img src="img/GlobalMapper_Logo.png">      
-        <div class="card-holder">
-            <h2>Global Mapper</h2>
-            <p>Somos representantes del software Global Mapper para Colombia.</p>
+        <div class="card">    
+            <img src="img/GlobalMapper_Logo.png">      
+            <div class="card-info">
+                <h2>Global Mapper</h2>
+                <p>Somos representantes del software Global Mapper para Colombia.</p>
+            </div>
         </div>
-    </div>
-
-    <div class="card">               
-        <img src="img/GISCO_Logo.png">
-        <div class="card-holder">
-            <h2>Mapas by GISCO</h2>
-            <p>Incorpora nuestra API de mapas en tus aplicaciones. Tambien disponible para GPS.</p>    
+        <div class="card">               
+            <img src="img/GISCO_Logo.png">
+            <div class="card-info">
+                <h2>Mapas by GISCO</h2>
+                <p>Incorpora nuestra API de mapas en tus aplicaciones. Tambien disponible para GPS.</p>    
+            </div>
         </div>
-    </div>
-
-    <div class="card">               
-        <img src="img/GameOfDrones_Logo.png">
-        <div class="card-holder">
-            <h2>Game of Drones</h2>
-            <p>Contamos con servicios de entreteminiento con drones para espectaculos.</p>
+        <div class="card">               
+            <img src="img/GameOfDrones_Logo.png">
+            <div class="card-info">
+                <h2>Game of Drones</h2>
+                <p>Contamos con servicios de entreteminiento con drones para espectaculos.</p>
+            </div>
         </div>
-    </div>
+      </div>
+    </section>
 
-</div>
-
-<!-- TESTIMONIALS -->
-    <div class="testimonials">
-        <div class="inner">
-            <div class="row">
-                
-                <div class="col">
-                    <div class="testimonial">
-                        <img src="img/GlobalMapper_Logo.png" alt="">
-                        <div class="name">Full name</div>
-                        <div class="stars">X X X X X</div>
-                        <p>noasndias asiondoias sadnoais asn asndian asndasoi</p>
-                    </div>
+    <!-- TESTIMONIALS -->
+    <section id="testimonial">
+      <div class="testimonials">
+        <div class="row">
+            <div class="col">
+                <div class="testimonial">
+                    <img src="img/GlobalMapper_Logo.png" alt="">
+                    <div class="name">Full name</div>
+                    <div class="stars">X X X X X</div>
+                    <p>noasndias asiondoias sadnoais asn asndian asndasoi</p>
                 </div>
-
-                <div class="col">
-                    <div class="testimonial">
-                        <img src="img/GlobalMapper_Logo.png" alt="">
-                        <div class="name">Full name</div>
-                        <div class="stars">X X X X X</div>
-                        <p>noasndias asiondoias sadnoais asn asndian asndasoi</p>
-                    </div>
+            </div>
+            <div class="col">
+                <div class="testimonial">
+                    <img src="img/GlobalMapper_Logo.png" alt="">
+                    <div class="name">Full name</div>
+                    <div class="stars">X X X X X</div>
+                    <p>noasndias asiondoias sadnoais asn asndian asndasoi</p>
                 </div>
-
-                <div class="col">
-                    <div class="testimonial">
-                        <img src="img/GlobalMapper_Logo.png" alt="">
-                        <div class="name">Full name</div>
-                        <div class="stars">X X X X X</div>
-                        <p>noasndias asiondoias sadnoais asn asndian asndasoi</p>
-                    </div>
+            </div>
+            <div class="col">
+                <div class="testimonial">
+                    <img src="img/GlobalMapper_Logo.png" alt="">
+                    <div class="name">Full name</div>
+                    <div class="stars">X X X X X</div>
+                    <p>noasndias asiondoias sadnoais asn asndian asndasoi</p>
                 </div>
-
             </div>
         </div>
     </div>
 <!-- /TESTIMONIALS -->
 
-<!-- CONTACTO -->
-<section id="contact">
-    <div class="container">
-        <h3>Contacto</h3>
-        <div class="form-g">
-            <form class="card mt-4">
-                <div class="card-body">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Nombre">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <textarea cols="30" rows="10" placeholder="Mensaje" class="form-control"></textarea>
-                    </div>
-                    <button class="btn btn-primary btn-block">Enviar</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</section>
+    </section>
 
 
-<!-- FOOTER -->
-<footer>
-    <div class="container">
-        <h4>
-            Todos los derechos reservados. NaviOne Colombia.
-        </h4>
 
-    </div>
-</footer>
+    <script type="text/javascript">
+    //Javacript for responsive navigation menu
+    const menuBtn = document.querySelector(".menu-btn");
+    const navigation = document.querySelector(".navigation");
 
+    menuBtn.addEventListener("click", () => {
+      menuBtn.classList.toggle("active");
+      navigation.classList.toggle("active");
+    });
 
-</body>
+    //Javacript for video slider navigation
+    const btns = document.querySelectorAll(".nav-btn");
+    const slides = document.querySelectorAll(".video-slide");
+    const contents = document.querySelectorAll(".content");
+
+    var sliderNav = function(manual){
+      btns.forEach((btn) => {
+        btn.classList.remove("active");
+      });
+
+      slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+
+      contents.forEach((content) => {
+        content.classList.remove("active");
+      });
+
+      btns[manual].classList.add("active");
+      slides[manual].classList.add("active");
+      contents[manual].classList.add("active");
+    }
+
+    btns.forEach((btn, i) => {
+      btn.addEventListener("click", () => {
+        sliderNav(i);
+      });
+    });
+    </script>
+
+  </body>
 </html>

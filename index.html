@@ -6,98 +6,129 @@
     <title>NaviOne</title>
     <!-- GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
-    <!-- BOOTSTRAP 4 -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
-        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <!-- SCROOLL REVEAL JS LIBRARY CDN -->
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="src/css/main.css">
 </head>
 
 <body>
-
 <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">NaviOne</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="#home">Inicio</a>
-            <a class="nav-item nav-link" href="#portafolio">Portafolio</a>
-            <a class="nav-item nav-link" href="#contact">Contacto</a>
-            </div>
-        </div>
-    </nav>
-
-<!-- HOME -->
-<section id="home">
-    <div></div>
-</section>
+<div class="fixed-navbar main-container">
+    <img class="main-logo" src="img/NaviOne_Logo.png" alt="">
+    <a class="nav-item" href="#home">Inicio</a>
+    <a class="nav-item" href="#portafolio">Portafolio</a>
+    <a class="nav-item" href="#contact">Contacto</a>
+</div>
+<!-- /NAVIGATION -->
 
 <!-- HEADER -->
-<section id="header">
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-9 col-sm-9">
-                <div class="header-content-left">
-
-                </div>  
+<section id="home">
+    <div class="">
+        <div class="">
+            <div class="">
+                <div class=""></div>  
             </div>
-            <div class="col-md-3 col-sm-4">
-                <div class="header-content-right">
-                <h1 class="display-4">Vamos donde necesites</h1>
-                <p class="mt-5">Nuestros pilotos de drones están preparados para capturar datos de calidad en cualquier territorio siguiendo la norma.</p>
-                <a href="#contact" class="btn btn-primary header-btn btn-lg mt-2">Solicita asesoria</a>
+            <div class="">
+                <div class="">
+                <h1 class="">Vamos donde necesites</h1>
+                <p class="">Nuestros pilotos de drones están preparados para capturar datos de calidad en cualquier territorio siguiendo la norma.</p>
+                <a href="#contact" class="">Solicita asesoria</a>
                 </div>
             </div>
         </div>
     </div>
     </section>
-
+<!-- /HEADER -->
 
 <!-- PORTAFOLIO -->
-<div class="container px-4 py-4" id="portafolio">
-    <h2 class="pb-2 border-bottom">Portafolio de servicios</h2>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
-                <img src="img/1.png">
-            </div>
-            <h2>Levantamiento topográfico con drones</h2>
+<div id="portafolio"></div>
+<div class="container cards">
+
+    <div class="card">
+        <img src="img/Topo_Logo.png">
+        <div class="card-holder">
+            <h2>Topografía con drones</h2>
             <p>Contamos pilotos certificados y drones profesionales capaces de levantar topografía.</p>
         </div>
-        <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
-                <img src="img/2.png">
-            </div>
+    </div>
+
+    <div class="card">
+        <img src="img/Inspection_Logo.png">
+        <div class="card-holder">
             <h2>Inspección aérea</h2>
             <p>Inspeccionamos techos, fachadas y demás estructuras para que puedas estar al día del estado de tu propiedad.</p>
         </div>
-        <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
-                <img src="img/3.png">
-            </div>
-            <h2>Soluciones SIG - GIS</h2>
-            <p>Ofrecemos soluciones para requerimientos y analisis de datos en Sistemas de Informacion Geografica.</p>
+    </div>
+
+    <div class="card">
+        <img src="img/GIS_Logo.png">
+        <div class="card-holder">
+            <h2>Nearshore GIS</h2>
+            <p>Ofrecemos soluciones para requerimientos y analisis de datos en Sistemas de Informacion Geografica.</p>    
         </div>
     </div>
+
+    <div class="card">    
+        <img src="img/GlobalMapper_Logo.png">      
+        <div class="card-holder">
+            <h2>Global Mapper</h2>
+            <p>Somos representantes del software Global Mapper para Colombia.</p>
+        </div>
+    </div>
+
+    <div class="card">               
+        <img src="img/GISCO_Logo.png">
+        <div class="card-holder">
+            <h2>Mapas by GISCO</h2>
+            <p>Incorpora nuestra API de mapas en tus aplicaciones. Tambien disponible para GPS.</p>    
+        </div>
+    </div>
+
+    <div class="card">               
+        <img src="img/GameOfDrones_Logo.png">
+        <div class="card-holder">
+            <h2>Game of Drones</h2>
+            <p>Contamos con servicios de entreteminiento con drones para espectaculos.</p>
+        </div>
+    </div>
+
 </div>
 
+<!-- TESTIMONIALS -->
+    <div class="testimonials">
+        <div class="inner">
+            <div class="row">
+                
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="img/GlobalMapper_Logo.png" alt="">
+                        <div class="name">Full name</div>
+                        <div class="stars">X X X X X</div>
+                        <p>noasndias asiondoias sadnoais asn asndian asndasoi</p>
+                    </div>
+                </div>
 
-<!-- TESTIMONIAL -->
-<section id="testimonial">
-    <div class="container">
-        <p class="h3 mb-2">
-            "Nunca antes en la historia de aviación había sido tan fácil acceder a servicios aéreos y a tan bajo costo."
-        </p>
-        <p class="h4">- Fundador de NaviOne</p>
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="img/GlobalMapper_Logo.png" alt="">
+                        <div class="name">Full name</div>
+                        <div class="stars">X X X X X</div>
+                        <p>noasndias asiondoias sadnoais asn asndian asndasoi</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="img/GlobalMapper_Logo.png" alt="">
+                        <div class="name">Full name</div>
+                        <div class="stars">X X X X X</div>
+                        <p>noasndias asiondoias sadnoais asn asndian asndasoi</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
-</section>
-
+<!-- /TESTIMONIALS -->
 
 <!-- CONTACTO -->
 <section id="contact">
